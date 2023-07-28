@@ -5,3 +5,27 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+.nav-pills-container {
+    justify-content: space-between;
+  }
+  
+  .search-box {
+    margin-left: 100px; 
+    margin-right: 5px;/* Adjust the margin as needed */
+  }
+  
+  .sign-in-button {
+    margin-right: 100px;
+  }
+
+  .nav-link-white,
+.search-button-white {
+  color: white;
+  background-color: black;
+}
+
+.nav-link.nav-link-white.active {
+    color: white;
+    background-color: black;
+  }
